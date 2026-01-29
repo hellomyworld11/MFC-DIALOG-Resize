@@ -9,11 +9,14 @@
   2.对话框类成员变量声明：
      CDlgAutoResize m_rsizeMgr;
   3. OnInitDialog()函数内：
+
     ...
     m_rsizeMgr.ManageCDlg(this);
-	  m_rsizeMgr.Record();
+      m_rsizeMgr.Record();
 
   4. OnSize 内
      m_rsizeMgr.Update(nType, cx, cy);
 
 效果如下:
+
+![演示](README.assets/演示.gif)
